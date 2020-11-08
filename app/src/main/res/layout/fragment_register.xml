@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.RegisterFragment">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"
+                style="@style/fontFamilyStyle"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:id="@+id/tv_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tag"
+                android:textSize="17sp"
+                style="@style/fontFamilyStyle"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="50dp"/>
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:inputType="textPersonName"
+                style="@style/fontFamilyStyle"
+                android:background="@drawable/edxt_custom"/>
+
+
+            <EditText
+                android:id="@+id/et_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/email"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                style="@style/fontFamilyStyle"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edxt_custom"/>
+
+            <EditText
+                android:id="@+id/et_user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/phone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                style="@style/fontFamilyStyle"
+                android:inputType="phone"
+                android:background="@drawable/edxt_custom"/>
+
+            <EditText
+                android:id="@+id/et_user_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                style="@style/fontFamilyStyle"
+                android:inputType="textPassword"
+                android:background="@drawable/edxt_custom"/>
+
+            <EditText
+                android:id="@+id/et_user_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/re_type_password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                style="@style/fontFamilyStyle"
+                android:inputType="textPassword"
+                android:background="@drawable/edxt_custom"/>
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_below="@id/et_user_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_custom"
+                style="@style/fontFamilyStyle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@android:color/white"
+                android:text="@string/register"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_arrow_left"/>
+
+            <TextView
+                style="@style/fontFamilyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:text="@string/swipe_right_for_login"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

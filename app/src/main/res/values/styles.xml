@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="fontFamilyStyle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="fontFamilyBoldStyle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="ButtonIcontyle" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>
